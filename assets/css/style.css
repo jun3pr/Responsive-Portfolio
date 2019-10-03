@@ -222,21 +222,19 @@ input[type=submit] {
   padding:10px;
   text-decoration;
   }
-  textarea {
-  width:95%;
-  padding:10px;
+
   }
   #submit{width:50%;}
   }
   @media screen and (max-width: 768px) {
-    body {text-decoration-color: darkblue}
+  p {text-decoration-color: darkblue}
   
   
     input {
   width:95%;
   padding:10px;
   }
-  textarea {
+  #masthead {
   width:95%;
   padding:10px;
   }
@@ -246,14 +244,16 @@ input[type=submit] {
   
   body {text-decoration-color: darkblue}
   
+  #masthead {
+    background-color: grey;
+    text-align: left
+    
+  }
     input {
   width:95%;
   padding:10px;
   }
-  textarea {
-  width:95%;
-  padding:10px;
-  }
+  
   #submit{width:50%;}
   }
   label{font-family:arial;}
